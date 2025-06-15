@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <h2 id="title">La Historia Del Alfajor.</h2>
-        <p>[Inserte subtitulo].</p>
+        <p>[Inserte subtitulo]...</p>
         <p>[Insete texto]</p>
     </main>
 </asp:Content>
