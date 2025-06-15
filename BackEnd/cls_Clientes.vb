@@ -1,9 +1,9 @@
 ﻿Public Class cls_Clientes
-    Public Sub Clientes_Altas(ByRef ClienteID As Object, Nombre As Object, Domicilio As Object, Telefono As Object, Whatsapp As Object, Descuento As Object, Iva As Object, RegistroFechaCreado As Object, RegistroFechaModificado As Object, RegistroUsuarioCreado As Object, RegistroUsuarioModificado As Object, ByRef Errores As Object)
+    Public Sub Clientes_Altas(ByRef ClienteID As Object, Nombre As Object, Domicilio As Object, Telefono As Object, Whatsapp As Object, Descuento As Object, Iva As Object, ByRef Errores As Object)
         Dim ta As BarilocheTableAdapters.ClientesTableAdapter = Nothing
         ta = New BarilocheTableAdapters.ClientesTableAdapter
-        ta.Insert(Nombre.ToString, Domicilio.ToString, Telefono.ToString, Whatsapp.ToString, Descuento.ToString, Iva.ToString, RegistroFechaCreado.ToString, RegistroFechaModificado.ToString, RegistroUsuarioCreado.ToString, RegistroUsuarioModificado.ToString)
-        ClienteID = 0
+        ta.Insert_Clientes(Nombre.ToString, Domicilio.ToString, Telefono.ToString, Whatsapp.ToString, Descuento.ToString, Iva.ToString)
+        ' ClienteID = 0
     End Sub
 
     Public Sub Clientes_Eliminar(ByRef ClienteID As Object)
