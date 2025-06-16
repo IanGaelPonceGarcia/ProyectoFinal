@@ -1,5 +1,5 @@
 ﻿
-Partial Class Default2
+Partial Class frm_Clientes_Altas
     Inherits System.Web.UI.Page
 
 

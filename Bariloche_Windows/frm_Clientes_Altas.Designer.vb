@@ -84,7 +84,7 @@ Partial Class frm_Clientes_Altas
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(12, 37)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(79, 20)
+        Me.Label2.Size = New System.Drawing.Size(63, 16)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Domicilio"
         '
@@ -100,7 +100,7 @@ Partial Class frm_Clientes_Altas
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(12, 65)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 20)
+        Me.Label3.Size = New System.Drawing.Size(61, 16)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "Telefono"
         '
@@ -116,7 +116,7 @@ Partial Class frm_Clientes_Altas
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(12, 93)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(86, 20)
+        Me.Label4.Size = New System.Drawing.Size(69, 16)
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Whatsapp"
         '
@@ -133,7 +133,7 @@ Partial Class frm_Clientes_Altas
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(12, 121)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(90, 20)
+        Me.Label5.Size = New System.Drawing.Size(72, 16)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "Descuento"
         '
@@ -150,7 +150,7 @@ Partial Class frm_Clientes_Altas
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(12, 149)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(35, 20)
+        Me.Label6.Size = New System.Drawing.Size(28, 16)
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "IVA"
         '

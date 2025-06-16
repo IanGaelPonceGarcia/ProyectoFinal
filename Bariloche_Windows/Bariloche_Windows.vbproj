@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B0D664CF-F16F-4579-9F41-FC8582CA0318}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Bariloche_Windows.frm_Clientes_Altas</StartupObject>
+    <StartupObject>Bariloche_Windows.frm_Main</StartupObject>
     <RootNamespace>Bariloche_Windows</RootNamespace>
     <AssemblyName>Bariloche_Windows</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -74,11 +74,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_Clientes_Cambios.Designer.vb">
+      <DependentUpon>frm_Clientes_Cambios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Clientes_Cambios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Main.Designer.vb">
+      <DependentUpon>frm_Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_Clientes_Altas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_Clientes_Altas.Designer.vb">
       <DependentUpon>frm_Clientes_Altas.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Clientes_Bajas.Designer.vb">
+      <DependentUpon>frm_Clientes_Bajas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Clientes_Bajas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,8 +112,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frm_Clientes_Cambios.resx">
+      <DependentUpon>frm_Clientes_Cambios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Main.resx">
+      <DependentUpon>frm_Main.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Clientes_Altas.resx">
       <DependentUpon>frm_Clientes_Altas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Clientes_Bajas.resx">
+      <DependentUpon>frm_Clientes_Bajas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

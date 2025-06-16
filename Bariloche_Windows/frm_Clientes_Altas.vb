@@ -9,4 +9,8 @@
 
 
     End Sub
+
+    Private Sub btn_Cancelar_Click(sender As Object, e As EventArgs) Handles btn_Cancelar.Click
+        End
+    End Sub
 End Class
