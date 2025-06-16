@@ -20,4 +20,10 @@
         frm.MdiParent = Me
         frm.Show()
     End Sub
+
+    Private Sub PedidosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PedidosToolStripMenuItem.Click
+        Dim frm As New frm_Pedidos
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
 End Class

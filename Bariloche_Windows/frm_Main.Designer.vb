@@ -27,16 +27,17 @@ Partial Class frm_Main
         Me.AltasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModificacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BajasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PedidosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ClientesToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ClientesToolStripMenuItem, Me.PedidosToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1068, 28)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -50,31 +51,38 @@ Partial Class frm_Main
         'AltasToolStripMenuItem
         '
         Me.AltasToolStripMenuItem.Name = "AltasToolStripMenuItem"
-        Me.AltasToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.AltasToolStripMenuItem.Size = New System.Drawing.Size(150, 26)
         Me.AltasToolStripMenuItem.Text = "Altas"
         '
         'ModificacionesToolStripMenuItem
         '
         Me.ModificacionesToolStripMenuItem.Name = "ModificacionesToolStripMenuItem"
-        Me.ModificacionesToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ModificacionesToolStripMenuItem.Size = New System.Drawing.Size(150, 26)
         Me.ModificacionesToolStripMenuItem.Text = "Cambios"
         '
         'BajasToolStripMenuItem
         '
         Me.BajasToolStripMenuItem.Name = "BajasToolStripMenuItem"
-        Me.BajasToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.BajasToolStripMenuItem.Size = New System.Drawing.Size(150, 26)
         Me.BajasToolStripMenuItem.Text = "Bajas"
+        '
+        'PedidosToolStripMenuItem
+        '
+        Me.PedidosToolStripMenuItem.Name = "PedidosToolStripMenuItem"
+        Me.PedidosToolStripMenuItem.Size = New System.Drawing.Size(75, 24)
+        Me.PedidosToolStripMenuItem.Text = "Pedidos"
         '
         'frm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1068, 645)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "frm_Main"
         Me.Text = "Bariloche"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
@@ -87,4 +95,5 @@ Partial Class frm_Main
     Friend WithEvents AltasToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ModificacionesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BajasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PedidosToolStripMenuItem As ToolStripMenuItem
 End Class

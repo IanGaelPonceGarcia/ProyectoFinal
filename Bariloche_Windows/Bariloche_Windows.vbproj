@@ -17,7 +17,7 @@
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
@@ -99,6 +99,12 @@
     <Compile Include="frm_Clientes_Bajas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_Pedidos.Designer.vb">
+      <DependentUpon>frm_Pedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Pedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -123,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Clientes_Bajas.resx">
       <DependentUpon>frm_Clientes_Bajas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Pedidos.resx">
+      <DependentUpon>frm_Pedidos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

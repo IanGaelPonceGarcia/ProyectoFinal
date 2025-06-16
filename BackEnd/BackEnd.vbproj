@@ -74,6 +74,9 @@
       <DependentUpon>Bariloche.xsd</DependentUpon>
     </Compile>
     <Compile Include="cls_Clientes.vb" />
+    <Compile Include="cls_PedidosDetalle.vb" />
+    <Compile Include="cls_PedidosEncabezado.vb" />
+    <Compile Include="cls_Productos_Medida.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
